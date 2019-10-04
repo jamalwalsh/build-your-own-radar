@@ -221,7 +221,7 @@ const GoogleSheetInput = function () {
 
       plotLogo(content)
 
-      var bannerText = '<div><h1>Build your own radar</h1><p>Once you\'ve <a href ="https://www.thoughtworks.com/radar/byor">created your Radar</a>, you can use this service' +
+      var bannerText = '<div><h1>Build the DCX Radar</h1><p>Once you\'ve <a href ="https://www.thoughtworks.com/radar/byor">created your Radar</a>, you can use this service' +
         ' to generate an <br />interactive version of your Technology Radar. Not sure how? <a href ="https://www.thoughtworks.com/radar/how-to-byor">Read this first.</a></p></div>'
 
       plotBanner(content, bannerText)
@@ -236,7 +236,7 @@ const GoogleSheetInput = function () {
 }
 
 function setDocumentTitle () {
-  document.title = 'Build your own Radar'
+  document.title = 'Build the DCX radar'
 }
 
 function plotLoading (content) {
